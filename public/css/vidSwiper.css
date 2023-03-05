@@ -1,0 +1,36 @@
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination {
+    bottom: -50px !important;
+}
+
+.swiper-button-next:after {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.swiper-button-prev:after {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.swiper-pagination-bullet {
+    background-color: #fff;
+    width: 1rem;
+    height: 1rem;
+}
+
+.testimoni .swiper-pagination-bullet {
+    background-color: rgb(132 204 22 / var(--tw-bg-opacity))
+}
+
+.testimoni .swiper-button-next:after, .testimoni .swiper-button-prev:after{
+   color: #fff;
+}

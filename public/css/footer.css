@@ -1,0 +1,5 @@
+ul.nav li:before {
+    content: ">";
+    margin-right: 4px;
+    color: rgb(132 204 22 / var(--tw-bg-opacity));
+}
